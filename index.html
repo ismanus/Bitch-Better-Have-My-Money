@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>什么时候发工资？</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* 强制使用粗体黑体，还原设计稿质感 */
+        body {
+            font-family: "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Source Han Sans CN", sans-serif;
+            background-color: #ffffff;
+            overflow: hidden; /* 防止出现滚动条 */
+        }
+    </style>
+</head>
+<body class="flex items-center justify-center min-h-screen">
+
+    <div class="relative flex items-center select-none">
+        
+        <div class="absolute -top-24 left-4 w-24 h-24 sm:-top-32 sm:w-32 sm:h-32 md:-top-44 md:w-48 md:h-48">
+            <img 
+                src="images/shrimp.png" 
+                alt="shrimp" 
+                class="w-full h-full object-contain"
+                onerror="this.style.display='none'; console.error('图片加载失败，请检查 images 文件夹下是否有 shrimp.png')"
+            >
+        </div>
+
+        <div class="flex items-end leading-none">
+            <div class="flex flex-col">
+                <span class="text-[18vw] sm:text-[120px] md:text-[180px] font-black tracking-tighter">
+                    什么时候
+                </span>
+                <span class="text-[18vw] sm:text-[120px] md:text-[180px] font-black tracking-tighter">
+                    发工资
+                </span>
+            </div>
+            
+            <span class="text-[35vw] sm:text-[240px] md:text-[360px] font-black leading-[0.8] ml-2">
+                ？
+            </span>
+        </div>
+
+    </div>
+
+</body>
+</html>
